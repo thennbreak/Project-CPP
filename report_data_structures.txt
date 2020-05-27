@@ -1,7 +1,2 @@
-The results of the execution of the program are as follows.  
-Declaring a static array 100,000 times with 250,000 elements resulted in an execution time of under 1ms.  
-That is expected because the memory was bound during compile time; however, there is no option for dynamic allocation.  
-Declaring a stack 100,000 times with 250,000 elements resulted in an execution time of 116ms.  
-This result is greater than the static array execution because the memory was not bound until run time.  
-Finally, declaring a heap 100,000 times with 250,000 elements resulted in an execution time of 19ms.  
+The results of the execution of the program are as follows.  Declaring a static array 100,000 times with 250,000 elements resulted in an execution time of under 1ms.  That is expected because the memory was bound during compile time; however, there is no option for dynamic allocation.  Declaring a stack 100,000 times with 250,000 elements resulted in an execution time of 116ms.  This result is greater than the static array execution because the memory was not bound until run time. Finally, declaring a heap 100,000 times with 250,000 elements resulted in an execution time of 19ms.  
 
